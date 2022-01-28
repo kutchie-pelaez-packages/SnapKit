@@ -8,7 +8,12 @@ let package = Package(
         .iOS("15")
     ],
     products: [
-        .library(name: "SnapKit", targets: ["SnapKit"])
+        .library(
+            name: "SnapKit",
+            targets: [
+                "SnapKit"
+            ]
+        )
     ],
     targets: [
         .target(
