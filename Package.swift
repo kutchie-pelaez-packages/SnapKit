@@ -2,8 +2,6 @@
 
 import PackageDescription
 
-let name: String = "SnapKit"
-
 let package = Package(
     name: "SnapKit",
     platforms: [
@@ -13,6 +11,9 @@ let package = Package(
         .library(name: "SnapKit", targets: ["SnapKit"])
     ],
     targets: [
-        .target(name: "SnapKit", path: "Sources")
+        .target(
+            name: "SnapKit",
+            path: "Sources"
+        )
     ]
 )
